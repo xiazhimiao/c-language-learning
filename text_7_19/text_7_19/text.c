@@ -1,7 +1,8 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 int main()
 {
-	printf("%d\n",strlen("\n"));//×Ö·û³£Á¿µÄ³¤¶È¿Ï¶¨Îª1
+	printf("%d\n",strlen("\n"));//å­—ç¬¦å¸¸é‡çš„é•¿åº¦è‚¯å®šä¸º1
+	printf("ä½ å¥½");
 	return 0;
 }
