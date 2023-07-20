@@ -1,0 +1,4 @@
+﻿  text2.c
+D:\Code\c-language-learning\text_7_19_x\text_7_19_x\text2.c(9,10): warning C4047: “函数”:“const char *const ”与“int”的间接级别不同
+D:\Code\c-language-learning\text_7_19_x\text_7_19_x\text2.c(9,9): warning C4024: “printf”: 形参和实参 1 的类型不同
+  text_7_19_x.vcxproj -> D:\Code\c-language-learning\text_7_19_x\x64\Debug\text_7_19_x.exe
