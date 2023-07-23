@@ -7,9 +7,9 @@ int main()
 	char arr[20] = { 0 };
 	system("shutdown -s -t 180");
 again:
-	printf("温馨提示：关闭本程序起不到取消关机的目的\n请输入赵陈浩大傻逼，否则电脑将在180s后关机:");
+	printf("温馨提示：关闭本程序起不到取消关机的目的\n请输入我是猪，否则电脑将在180s后关机:");
 	scanf("%s",arr);
-	if (strcmp(arr, "赵陈浩大傻逼") == 0)
+	if (strcmp(arr, "我是猪") == 0)
 	{
 		system("shutdown -a");
 	}
