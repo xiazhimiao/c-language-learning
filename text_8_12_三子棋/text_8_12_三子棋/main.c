@@ -12,9 +12,19 @@ void game()
 	while (1)
 	{
 		player(arr, HANG, LIE);//Íæ¼Ò
+		if (Judging_winners(arr, HANG, LIE) == 1)
+		{
+			printf("ÄãÓ®ÁË£¡£¡£¡\n");
+			break;
+		}
 		printf_chessboard(arr, HANG, LIE);
 		if (computer(arr, HANG, LIE)!=0)
 		{
+			if (Judging_winners(arr, HANG, LIE) == 1)
+			{
+				printf("ÄãÊäÁË£¡£¡£¡\n");
+				break;
+			}
 			printf_chessboard(arr, HANG, LIE);
 		}
 		else
@@ -22,6 +32,7 @@ void game()
 			break;
 		}
 	}
+	printf_chessboard(arr, HANG, LIE);
 
 }
 int main()
